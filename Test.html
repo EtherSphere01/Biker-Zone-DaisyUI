@@ -1,15 +1,84 @@
-<div class="collapse collapse-arrow bg-base-100 border border-base-300">
-  <input type="radio" name="my-accordion-2" checked="checked" />
-  <div class="collapse-title font-semibold">How do I create an account?</div>
-  <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
-</div>
-<div class="collapse collapse-arrow bg-base-100 border border-base-300">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
-  <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
-</div>
-<div class="collapse collapse-arrow bg-base-100 border border-base-300">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title font-semibold">How do I update my profile information?</div>
-  <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biker Zone</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "bike-primary": "#E76F51",
+              "bike-primary-bg": "rgba(231,111,81,0.1)",
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+      <input type="radio" name="my-accordion-2" checked="checked" />
+      <div class="collapse-title font-semibold">
+        How do I create an account?
+      </div>
+      <div class="collapse-content text-sm">
+        Click the "Sign Up" button in the top right corner and follow the
+        registration process.
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title font-semibold">
+        I forgot my password. What should I do?
+      </div>
+      <div class="collapse-content text-sm">
+        Click on "Forgot Password" on the login page and follow the instructions
+        sent to your email.
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title font-semibold">
+        How do I update my profile information?
+      </div>
+      <div class="collapse-content text-sm">
+        Go to "My Account" settings and select "Edit Profile" to make changes.
+      </div>
+    </div>
+  </body>
+</html>
